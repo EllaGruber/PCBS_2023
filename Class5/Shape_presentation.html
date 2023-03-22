@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<head>
+  <title>A simple jsPsych experiment</title>
+    
+</head>
+<body>
+  <script src="./jspsych/dist/jspsych.js">
+  </script>
+
+  <script src = "./jspsych/dist/plugin-html-keyboard-response.js">
+  </script>
+<script>
+
+
+// We initialize JsPsych
+
+//const jsPsych = initJsPsych()
+let jsPsych = initJsPsych({
+  on_finish: function(){
+    jsPsych.data.get().localSave('csv', "data.csv");
+     }
+});
+
+
+// We create an empty timeline
+let stim =[
+    {string:`<svg style= " width: 500px ; height: 500px;
+			 position: absolute; top: 50vh;
+			left: 50vw " > 
+            <circle cx='50' cy='50' r='10' fill='red'>
+                </svg>`, color:'red', shape:'circle'},
+
+    {string:`<svg style=" width: 500px ; height: 500px;
+			 position: absolute; top: 50vh;
+			left: 50vw " > 
+            <circle cx='50' cy='50' r='10' fill='blue'>
+                </svg>`, color:'red', shape:'circle'},
+
+    {string:`<svg style= " width: 500px ; height: 500px;
+			 position: absolute; top: 50vh;
+			left: 50vw "  > 
+            <polygon points="20,20,20,40,40,40,40,20" fill="red"/>
+            </svg>`, color:'red', shape:'square'},
+
+    {string:    `<svg style= " width: 500px ; height: 500px;
+			 position: absolute; top: 50vh;
+			left: 50vw " >
+             <polygon points="20,20,20,40,40,40,40,20" fill="blue"/>
+             </svg>`, color:'blue', shape:'square'},
+
+    {string:`<svg style= " width: 500px ; height: 500px;
+			 position: absolute; top: 50vh;
+			left: 50vw " >
+             <polygon points="20,40,40,40,40,20" fill="red"/>
+             </svg>`,
+            color:'red', shape:'triangle'},
+
+    {string:`<svg style= " width: 500px ; height: 500px;
+			 position: absolute; top: 50vh;
+			left: 50vw " > 
+            <polygon points="20,40,40,40,40,20" fill="red"/>
+            </svg>`, color:'red', shape:'triangle'},
+]
+
+let timeline = [];
+
+// We create a basic decision trial
+for (let i = 0; i < stim.length; i++) { 
+    let trial = {
+
+  type: jsPsychHtmlKeyboardResponse,
+  stimulus: stim[i].string,
+  data: {color: stim[i].color, shape: stim[i].shape},
+  choices:['f','j']
+};
+
+// We add this trial to the timeline
+// /!\ Do not forget this essential step /!\
+timeline.push(trial);
+}
+
+timeline = jsPsych.randomization.shuffleNoRepeats(timeline,
+  function(trial1, trial2){return trial1.shape == trial2.shape}); //randomizing the stimulus
+// We run the timeline with JsPsych
+jsPsych.run(timeline);
+
+
+
+
+
+
+</script>
+
+
+
+
+
+</body>

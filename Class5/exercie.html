@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<head>
+  <title>A simple jsPsych experiment</title>
+    
+</head>
+<body>
+  <script src="./jspsych/dist/jspsych.js">
+  </script>
+
+  <script src = "./jspsych/dist/plugin-html-keyboard-response.js">
+  </script>
+<script>
+
+
+// We initialize JsPsych
+const jsPsych = initJsPsych();
+
+// We create an empty timeline
+let timeline = [];
+
+// We create a basic decision trial
+let trial = {
+  type: jsPsychHtmlKeyboardResponse,
+  stimulus: "Please Press Any Key",
+  choices:['f','j']
+};
+
+// We add this trial to the timeline
+// /!\ Do not forget this essential step /!\
+timeline.push(trial);
+
+// We run the timeline with JsPsych
+jsPsych.run(timeline);
+
+</script>
+
+
+
+
+</body>
+
