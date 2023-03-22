@@ -15,7 +15,7 @@ from expyriment import design, control, stimuli
 words =  ['bonjour', 'chien', 'président']
 pseudos =  ['lopadol', 'mirance', 'clapour']
 
-TARGETS = words + pseudos
+TARGETS = words 
 
 N_TRIALS_PER_TARGET = 1
 WORD_RESPONSE = 'f'
