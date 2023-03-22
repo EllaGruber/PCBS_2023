@@ -1,0 +1,42 @@
+#Expyriment 0.10.0+95.g6dd1e14 (Python 3.9.7), .xpe-file, coding: UTF-8
+#date: Wed Mar 22 2023 09:51:28
+#sha1: 24ce82
+#modules: 
+#display: size=(1792, 1120), window_mode=False, open_gl=2
+#os: uname_result(system='Darwin', node='MacBook-Pro-de-mac.local', release='20.6.0', version='Darwin Kernel Version 20.6.0: Sun Nov  6 23:17:00 PST 2022; root:xnu-7195.141.46~1/RELEASE_X86_64', machine='x86_64')
+Time,Type,Event,Value,Detail,Detail2
+10640,design,log,
+#design: #exp: Lexical Decision
+#design: #dvn: cat,word,respkey,RT
+#design: block_cnt,block_id,trial_cnt,trial_id
+10640,design,logged,
+10640,Experiment,started
+10660,Stimulus,presented,8
+26198,Keyboard,received, ,wait_char
+26219,Stimulus,presented,7
+27222,Stimulus,presented,6
+27725,Stimulus,presented,4
+28050,Keyboard,received,f,wait_char
+28069,Stimulus,presented,7
+29072,Stimulus,presented,6
+29575,Stimulus,presented,5
+29581,Keyboard,received,j,wait_char
+29600,Stimulus,presented,7
+30603,Stimulus,presented,6
+31108,Stimulus,presented,1
+31398,Keyboard,received,j,wait_char
+31418,Stimulus,presented,7
+32421,Stimulus,presented,6
+32926,Stimulus,presented,0
+33062,Keyboard,received,f,wait_char
+33081,Stimulus,presented,7
+34086,Stimulus,presented,6
+34589,Stimulus,presented,3
+34904,Keyboard,received,f,wait_char
+34923,Stimulus,presented,7
+35926,Stimulus,presented,6
+36429,Stimulus,presented,2
+36816,Keyboard,received,f,wait_char
+36817,Experiment,ended
+36817,Data,saved
+36821,Stimulus,presented,11

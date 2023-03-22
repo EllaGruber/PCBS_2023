@@ -1,0 +1,17 @@
+#Expyriment 0.10.0+95.g6dd1e14 (Python 3.9.7), .xpd-file, coding: UTF-8
+#date: Wed Mar 22 2023 09:59:50
+#--EXPERIMENT INFO
+#e mainfile: parity.py
+#e sha1: 8be8b4
+#e modules: 
+#e Experiment: Parity Decision
+#e no between subject factors
+#--SUBJECT INFO
+#s id: 1
+subject_id,token,word,respkey,RT
+1,clapour,pseudo,f,733
+1,mirance,pseudo,j,274
+1,lopadol,pseudo,f,99
+1,président,word,j,699
+1,bonjour,word,f,403
+1,chien,word,j,326

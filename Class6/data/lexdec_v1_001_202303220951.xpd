@@ -1,0 +1,17 @@
+#Expyriment 0.10.0+95.g6dd1e14 (Python 3.9.7), .xpd-file, coding: UTF-8
+#date: Wed Mar 22 2023 09:51:28
+#--EXPERIMENT INFO
+#e mainfile: lexdec_v1.py
+#e sha1: 24ce82
+#e modules: 
+#e Experiment: Lexical Decision
+#e no between subject factors
+#--SUBJECT INFO
+#s id: 1
+subject_id,cat,word,respkey,RT
+1,P,mirance,f,324
+1,P,clapour,j,5
+1,W,chien,j,290
+1,W,bonjour,f,135
+1,P,lopadol,f,313
+1,W,président,f,387

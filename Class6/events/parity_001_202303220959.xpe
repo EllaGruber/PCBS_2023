@@ -1,0 +1,42 @@
+#Expyriment 0.10.0+95.g6dd1e14 (Python 3.9.7), .xpe-file, coding: UTF-8
+#date: Wed Mar 22 2023 09:59:50
+#sha1: 8be8b4
+#modules: 
+#display: size=(1792, 1120), window_mode=False, open_gl=2
+#os: uname_result(system='Darwin', node='MacBook-Pro-de-mac.local', release='20.6.0', version='Darwin Kernel Version 20.6.0: Sun Nov  6 23:17:00 PST 2022; root:xnu-7195.141.46~1/RELEASE_X86_64', machine='x86_64')
+Time,Type,Event,Value,Detail,Detail2
+10764,design,log,
+#design: #exp: Parity Decision
+#design: #dvn: token,word,respkey,RT
+#design: block_cnt,block_id,trial_cnt,trial_id
+10764,design,logged,
+10764,Experiment,started
+10783,Stimulus,presented,8
+14116,Keyboard,received,13,wait
+14135,Stimulus,presented,7
+15140,Stimulus,presented,6
+15643,Stimulus,presented,5
+16376,Keyboard,received,f,wait_char
+16394,Stimulus,presented,7
+17398,Stimulus,presented,6
+17902,Stimulus,presented,4
+18176,Keyboard,received,j,wait_char
+18195,Stimulus,presented,7
+19198,Stimulus,presented,6
+19701,Stimulus,presented,3
+19800,Keyboard,received,f,wait_char
+19819,Stimulus,presented,7
+20822,Stimulus,presented,6
+21327,Stimulus,presented,2
+22026,Keyboard,received,j,wait_char
+22044,Stimulus,presented,7
+23047,Stimulus,presented,6
+23550,Stimulus,presented,0
+23954,Keyboard,received,f,wait_char
+23972,Stimulus,presented,7
+24975,Stimulus,presented,6
+25478,Stimulus,presented,1
+25804,Keyboard,received,j,wait_char
+25804,Experiment,ended
+25805,Data,saved
+25808,Stimulus,presented,11
