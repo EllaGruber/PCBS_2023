@@ -1,0 +1,31 @@
+#Expyriment 0.10.0+95.g6dd1e14 (Python 3.9.7), .xpd-file, coding: UTF-8
+#date: Wed Feb 22 2023 10:22:54
+#--EXPERIMENT INFO
+#e mainfile: simple-detection-visual-expyriment.py
+#e sha1: 8d01a0
+#e modules: 
+#e Experiment: Visual Detection
+#e no between subject factors
+#--SUBJECT INFO
+#s id: 124
+subject_id,trial,wait,respkey,RT
+124,0,1994,32,841
+124,1,1158,32,400
+124,2,1873,32,358
+124,3,1565,32,281
+124,4,1224,32,261
+124,5,1594,32,272
+124,6,1584,32,248
+124,7,1241,32,271
+124,8,1516,32,305
+124,9,1085,32,1147
+124,10,1303,32,280
+124,11,1470,32,265
+124,12,1513,32,322
+124,13,1762,32,304
+124,14,1282,32,268
+124,15,1486,32,285
+124,16,1673,32,255
+124,17,1914,32,253
+124,18,1901,32,251
+124,19,1167,32,292

@@ -1,0 +1,24 @@
+#Expyriment 0.10.0+95.g6dd1e14 (Python 3.9.7), .xpe-file, coding: UTF-8
+#date: Wed Feb 22 2023 11:26:50
+#sha1: f8363f
+#modules: 
+#display: size=(1792, 1120), window_mode=False, open_gl=2
+#os: uname_result(system='Darwin', node='MacBook-Pro-de-mac.local', release='20.6.0', version='Darwin Kernel Version 20.6.0: Sun Nov  6 23:17:00 PST 2022; root:xnu-7195.141.46~1/RELEASE_X86_64', machine='x86_64')
+Time,Type,Event,Value,Detail,Detail2
+10403,design,log,
+#design: #exp: Parity Decision
+#design: #dvn: number,oddity,respkey,RT
+#design: block_cnt,block_id,trial_cnt,trial_id
+10403,design,logged,
+10403,Experiment,started
+10422,Stimulus,presented,102
+11380,Keyboard,received,13,wait
+11398,Stimulus,presented,101
+12401,Stimulus,presented,100
+12904,Stimulus,presented,33
+13617,Keyboard,received,f,wait_char
+13617,stderr,received,'Traceback (most recent call last):'
+13617,stderr,received,'  File "/Users/mathias/Desktop/ENS/PCBS/Class3/parity.py", line 59, in <module>'
+13618,stderr,received,'    if (int(number) % 2 == 0 & key == ODD_RESPONSE) or (int(number) % 2 == 0 & key == EVEN_RESPONSE):'
+13618,stderr,received,"TypeError: unsupported operand type(s) for &: 'int' and 'str'"
+13619,Data,saved

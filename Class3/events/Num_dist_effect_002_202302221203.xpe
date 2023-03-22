@@ -1,0 +1,61 @@
+#Expyriment 0.10.0+95.g6dd1e14 (Python 3.9.7), .xpe-file, coding: UTF-8
+#date: Wed Feb 22 2023 12:03:00
+#sha1: b6d1c2
+#modules: 
+#display: size=(1792, 1120), window_mode=False, open_gl=2
+#os: uname_result(system='Darwin', node='MacBook-Pro-de-mac.local', release='20.6.0', version='Darwin Kernel Version 20.6.0: Sun Nov  6 23:17:00 PST 2022; root:xnu-7195.141.46~1/RELEASE_X86_64', machine='x86_64')
+Time,Type,Event,Value,Detail,Detail2
+10300,design,log,
+#design: #exp: Numerical Distance Effect
+#design: #dvn: number,distance,respkey,RT
+#design: block_cnt,block_id,trial_cnt,trial_id
+10300,design,logged,
+10300,Experiment,started
+10320,Stimulus,presented,12
+12116,Keyboard,received,13,wait
+12135,Stimulus,presented,11
+13138,Stimulus,presented,10
+13641,Stimulus,presented,2
+14303,Keyboard,received,f,wait_char
+14323,Stimulus,presented,11
+15328,Stimulus,presented,10
+15831,Stimulus,presented,8
+16410,Keyboard,received,j,wait_char
+16430,Stimulus,presented,11
+17433,Stimulus,presented,10
+17936,Stimulus,presented,4
+18688,Keyboard,received,j,wait_char
+18693,Stimulus,played,b'wrong-answer.ogg'
+18712,Stimulus,presented,11
+19715,Stimulus,presented,10
+20219,Stimulus,presented,9
+21023,Keyboard,received,f,wait_char
+21023,Stimulus,played,b'wrong-answer.ogg'
+21043,Stimulus,presented,11
+22046,Stimulus,presented,10
+22549,Stimulus,presented,1
+23300,Keyboard,received,f,wait_char
+23319,Stimulus,presented,11
+24323,Stimulus,presented,10
+24826,Stimulus,presented,6
+25576,Keyboard,received,j,wait_char
+25596,Stimulus,presented,11
+26599,Stimulus,presented,10
+27102,Stimulus,presented,5
+28139,Keyboard,received,j,wait_char
+28159,Stimulus,presented,11
+29162,Stimulus,presented,10
+29665,Stimulus,presented,3
+30994,Keyboard,received,f,wait_char
+31012,Stimulus,presented,11
+32015,Stimulus,presented,10
+32518,Stimulus,presented,7
+33234,Keyboard,received,j,wait_char
+33254,Stimulus,presented,11
+34257,Stimulus,presented,10
+34760,Stimulus,presented,0
+35578,Keyboard,received,j,wait_char
+35578,Stimulus,played,b'wrong-answer.ogg'
+35578,Experiment,ended
+35580,Data,saved
+35583,Stimulus,presented,15

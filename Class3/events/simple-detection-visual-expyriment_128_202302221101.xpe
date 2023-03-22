@@ -1,0 +1,25 @@
+#Expyriment 0.10.0+95.g6dd1e14 (Python 3.9.7), .xpe-file, coding: UTF-8
+#date: Wed Feb 22 2023 11:01:26
+#sha1: 7c363b
+#modules: 
+#display: size=(1792, 1120), window_mode=False, open_gl=2
+#os: uname_result(system='Darwin', node='MacBook-Pro-de-mac.local', release='20.6.0', version='Darwin Kernel Version 20.6.0: Sun Nov  6 23:17:00 PST 2022; root:xnu-7195.141.46~1/RELEASE_X86_64', machine='x86_64')
+Time,Type,Event,Value,Detail,Detail2
+11158,design,log,
+#design: #exp: Visual Detection
+#design: #dvn: trial,wait,respkey,RT
+#design: block_cnt,block_id,trial_cnt,trial_id
+11158,design,logged,
+11158,Experiment,started
+11179,Stimulus,presented,1
+12241,Keyboard,received,13,wait
+12259,Stimulus,presented,0
+14174,stderr,received,'Exception ignored in: <function Visual.__del__ at 0x7fa01b6981f0>'
+14174,stderr,received,'Traceback (most recent call last):'
+14174,stderr,received,'  File "/Users/mathias/opt/anaconda3/lib/python3.9/site-packages/expyriment/stimuli/_visual.py", line 267, in __del__'
+14175,stderr,received,'    if self._compression_filename is not None:'
+14175,stderr,received,"AttributeError: 'TextBox' object has no attribute '_compression_filename'"
+14175,stderr,received,'Traceback (most recent call last):'
+14175,stderr,received,'  File "/Users/mathias/Desktop/ENS/PCBS/Class3/simple-detection-visual-expyriment.py", line 49, in <module>'
+14175,stderr,received,'    number_target = stimuli.TextBox(str(rd_number))'
+14175,stderr,received,"TypeError: __init__() missing 1 required positional argument: 'size'"

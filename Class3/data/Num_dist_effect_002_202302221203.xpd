@@ -1,0 +1,21 @@
+#Expyriment 0.10.0+95.g6dd1e14 (Python 3.9.7), .xpd-file, coding: UTF-8
+#date: Wed Feb 22 2023 12:03:00
+#--EXPERIMENT INFO
+#e mainfile: Num_dist_effect.py
+#e sha1: b6d1c2
+#e modules: 
+#e Experiment: Numerical Distance Effect
+#e no between subject factors
+#--SUBJECT INFO
+#s id: 2
+subject_id,number,distance,respkey,RT
+2,6,-49,f,662
+2,79,24,j,578
+2,29,-26,j,752
+2,90,35,f,804
+2,28,-27,f,750
+2,95,40,j,750
+2,78,23,j,1037
+2,1,-54,f,1328
+2,81,26,j,716
+2,19,-36,j,817

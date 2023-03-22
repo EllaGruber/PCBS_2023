@@ -1,0 +1,83 @@
+#Expyriment 0.10.0+95.g6dd1e14 (Python 3.9.7), .xpd-file, coding: UTF-8
+#date: Wed Feb 22 2023 10:47:02
+#--EXPERIMENT INFO
+#e mainfile: simple-detection-audiovisual.py
+#e sha1: 6f6939
+#e modules: 
+#e Experiment: AudioVisual Detection
+#e no between subject factors
+#e Block 0: visual
+#e     block factors: 
+#e     n trials: 20
+#e     trial factors: 
+#e Block 1: audio
+#e     block factors: 
+#e     n trials: 20
+#e     trial factors: 
+#e Block 2: audiovisual
+#e     block factors: 
+#e     n trials: 20
+#e     trial factors: 
+#--SUBJECT INFO
+#s id: 2
+subject_id,block,key,rt
+2,visual,None,None
+2,visual,None,None
+2,visual,None,None
+2,visual,None,None
+2,visual,None,None
+2,visual,None,None
+2,visual,None,None
+2,visual,None,None
+2,visual,None,None
+2,visual,None,None
+2,visual,None,None
+2,visual,None,None
+2,visual,None,None
+2,visual,None,None
+2,visual,None,None
+2,visual,None,None
+2,visual,None,None
+2,visual,None,None
+2,visual,None,None
+2,visual,None,None
+2,audio,None,None
+2,audio,None,None
+2,audio,None,None
+2,audio,None,None
+2,audio,None,None
+2,audio,None,None
+2,audio,None,None
+2,audio,None,None
+2,audio,None,None
+2,audio,None,None
+2,audio,32,1373
+2,audio,32,597
+2,audio,32,420
+2,audio,32,394
+2,audio,32,289
+2,audio,32,324
+2,audio,32,253
+2,audio,32,196
+2,audio,32,309
+2,audio,32,400
+2,audiovisual,32,239
+2,audiovisual,32,691
+2,audiovisual,None,None
+2,audiovisual,32,374
+2,audiovisual,32,401
+2,audiovisual,32,536
+2,audiovisual,32,204
+2,audiovisual,32,457
+2,audiovisual,32,329
+2,audiovisual,32,241
+2,audiovisual,32,392
+2,audiovisual,32,494
+2,audiovisual,32,505
+2,audiovisual,32,366
+2,audiovisual,32,318
+2,audiovisual,32,507
+2,audiovisual,32,622
+2,audiovisual,32,472
+2,audiovisual,32,293
+2,audiovisual,32,413

@@ -1,0 +1,24 @@
+#Expyriment 0.10.0+95.g6dd1e14 (Python 3.9.7), .xpe-file, coding: UTF-8
+#date: Wed Feb 22 2023 11:58:56
+#sha1: aa7d99
+#modules: 
+#display: size=(1792, 1120), window_mode=False, open_gl=2
+#os: uname_result(system='Darwin', node='MacBook-Pro-de-mac.local', release='20.6.0', version='Darwin Kernel Version 20.6.0: Sun Nov  6 23:17:00 PST 2022; root:xnu-7195.141.46~1/RELEASE_X86_64', machine='x86_64')
+Time,Type,Event,Value,Detail,Detail2
+10405,design,log,
+#design: #exp: Numerical Distance Effect
+#design: #dvn: number,distance,respkey,RT
+#design: block_cnt,block_id,trial_cnt,trial_id
+10405,design,logged,
+10405,Experiment,started
+10424,Stimulus,presented,12
+13703,Keyboard,received,13,wait
+13722,Stimulus,presented,11
+14725,Stimulus,presented,10
+15228,Stimulus,presented,3
+15786,Keyboard,received,f,wait_char
+15786,stderr,received,'Traceback (most recent call last):'
+15786,stderr,received,'  File "/Users/mathias/Desktop/ENS/PCBS/Class3/Num_dist_effect.py", line 63, in <module>'
+15786,stderr,received,'    if (int((int(number) % 2 == 0)) * int((key == ODD_RESPONSE)) + int((int(number) % 2 == 1)) * int((key == EVEN_RESPONSE))) >= 1:'
+15786,stderr,received,"NameError: name 'ODD_RESPONSE' is not defined"
+15788,Data,saved

@@ -1,0 +1,215 @@
+#Expyriment 0.10.0+95.g6dd1e14 (Python 3.9.7), .xpe-file, coding: UTF-8
+#date: Wed Feb 22 2023 10:51:59
+#sha1: 06744c
+#modules: 
+#display: size=(1792, 1120), window_mode=False, open_gl=2
+#os: uname_result(system='Darwin', node='MacBook-Pro-de-mac.local', release='20.6.0', version='Darwin Kernel Version 20.6.0: Sun Nov  6 23:17:00 PST 2022; root:xnu-7195.141.46~1/RELEASE_X86_64', machine='x86_64')
+Time,Type,Event,Value,Detail,Detail2
+10738,design,log,
+#design: #exp: AudioVisual Detection
+#design: #dvn: block,key,rt
+#design: block_cnt,block_id,trial_cnt,trial_id
+#design: 0,0,0,0
+#design: 0,0,1,1
+#design: 0,0,2,2
+#design: 0,0,3,3
+#design: 0,0,4,4
+#design: 0,0,5,5
+#design: 0,0,6,6
+#design: 0,0,7,7
+#design: 0,0,8,8
+#design: 0,0,9,9
+#design: 0,0,10,10
+#design: 0,0,11,11
+#design: 0,0,12,12
+#design: 0,0,13,13
+#design: 0,0,14,14
+#design: 0,0,15,15
+#design: 0,0,16,16
+#design: 0,0,17,17
+#design: 0,0,18,18
+#design: 0,0,19,19
+#design: 1,1,0,0
+#design: 1,1,1,1
+#design: 1,1,2,2
+#design: 1,1,3,3
+#design: 1,1,4,4
+#design: 1,1,5,5
+#design: 1,1,6,6
+#design: 1,1,7,7
+#design: 1,1,8,8
+#design: 1,1,9,9
+#design: 1,1,10,10
+#design: 1,1,11,11
+#design: 1,1,12,12
+#design: 1,1,13,13
+#design: 1,1,14,14
+#design: 1,1,15,15
+#design: 1,1,16,16
+#design: 1,1,17,17
+#design: 1,1,18,18
+#design: 1,1,19,19
+#design: 2,2,0,16
+#design: 2,2,1,5
+#design: 2,2,2,6
+#design: 2,2,3,2
+#design: 2,2,4,15
+#design: 2,2,5,7
+#design: 2,2,6,4
+#design: 2,2,7,11
+#design: 2,2,8,17
+#design: 2,2,9,19
+#design: 2,2,10,1
+#design: 2,2,11,9
+#design: 2,2,12,14
+#design: 2,2,13,18
+#design: 2,2,14,8
+#design: 2,2,15,12
+#design: 2,2,16,10
+#design: 2,2,17,13
+#design: 2,2,18,0
+#design: 2,2,19,3
+10739,design,logged,
+10739,Experiment,started
+10758,Stimulus,presented,1
+16718,Keyboard,received,13,wait
+16738,Stimulus,presented,0
+19592,Stimulus,presented,2
+21046,Keyboard,received,32,wait
+21067,Stimulus,presented,0
+23526,Stimulus,presented,2
+24679,Keyboard,received,1073742051,wait
+24699,Stimulus,presented,0
+27682,Stimulus,presented,2
+28782,Keyboard,received,1073742051,wait
+28802,Stimulus,presented,0
+30924,Stimulus,presented,2
+31513,Keyboard,received,13,wait
+31532,Stimulus,presented,0
+33760,Stimulus,presented,2
+33902,Keyboard,received,13,wait
+33921,Stimulus,presented,0
+35989,Stimulus,presented,2
+37989,Keyboard,received,None,wait
+38008,Stimulus,presented,0
+40246,Stimulus,presented,2
+42246,Keyboard,received,None,wait
+42265,Stimulus,presented,0
+44804,Stimulus,presented,2
+45743,Keyboard,received,32,wait
+45764,Stimulus,presented,0
+48225,Stimulus,presented,2
+48950,Keyboard,received,32,wait
+48971,Stimulus,presented,0
+51065,Stimulus,presented,2
+51366,Keyboard,received,32,wait
+51386,Stimulus,presented,0
+53815,Stimulus,presented,2
+54246,Keyboard,received,32,wait
+54267,Stimulus,presented,0
+57161,Stimulus,presented,2
+57804,Keyboard,received,32,wait
+57826,Stimulus,presented,0
+60105,Stimulus,presented,2
+60417,Keyboard,received,32,wait
+60437,Stimulus,presented,0
+63126,Stimulus,presented,2
+63512,Keyboard,received,32,wait
+63532,Stimulus,presented,0
+65648,Stimulus,presented,2
+66059,Keyboard,received,32,wait
+66079,Stimulus,presented,0
+68285,Stimulus,presented,2
+68704,Keyboard,received,32,wait
+68725,Stimulus,presented,0
+71245,Stimulus,presented,2
+71654,Keyboard,received,32,wait
+71674,Stimulus,presented,0
+73711,Stimulus,presented,2
+74100,Keyboard,received,32,wait
+74121,Stimulus,presented,0
+76726,Stimulus,presented,2
+77068,Keyboard,received,32,wait
+77088,Stimulus,presented,0
+79657,Stimulus,presented,2
+80105,Keyboard,received,32,wait
+80125,Stimulus,presented,0
+82596,Stimulus,played,b'click.wav'
+83926,Keyboard,received,32,wait
+83946,Stimulus,presented,0
+86493,Stimulus,played,b'click.wav'
+86870,Keyboard,received,32,wait
+86890,Stimulus,presented,0
+89570,Stimulus,played,b'click.wav'
+90012,Keyboard,received,32,wait
+90032,Stimulus,presented,0
+92546,Stimulus,played,b'click.wav'
+92853,Keyboard,received,32,wait
+92874,Stimulus,presented,0
+95157,Stimulus,played,b'click.wav'
+95681,Keyboard,received,32,wait
+95701,Stimulus,presented,0
+97868,Stimulus,played,b'click.wav'
+98180,Keyboard,received,32,wait
+98200,Stimulus,presented,0
+101167,Stimulus,played,b'click.wav'
+101777,Keyboard,received,32,wait
+101797,Stimulus,presented,0
+104174,Stimulus,played,b'click.wav'
+104530,Keyboard,received,32,wait
+104550,Stimulus,presented,0
+106808,Stimulus,played,b'click.wav'
+107126,Keyboard,received,32,wait
+107146,Stimulus,presented,0
+109174,Stimulus,played,b'click.wav'
+109503,Keyboard,received,32,wait
+109524,Stimulus,presented,0
+111829,Stimulus,played,b'click.wav'
+112577,Keyboard,received,32,wait
+112597,Stimulus,presented,0
+115195,Stimulus,played,b'click.wav'
+115982,Keyboard,received,32,wait
+116001,Stimulus,presented,0
+118359,Stimulus,played,b'click.wav'
+118744,Keyboard,received,32,wait
+118765,Stimulus,presented,0
+121048,Stimulus,played,b'click.wav'
+121994,Keyboard,received,32,wait
+122014,Stimulus,presented,0
+124716,Stimulus,played,b'click.wav'
+126716,Keyboard,received,None,wait
+126735,Stimulus,presented,0
+129335,Stimulus,played,b'click.wav'
+130785,Keyboard,received,32,wait
+130804,Stimulus,presented,0
+133671,Stimulus,played,b'click.wav'
+135671,Keyboard,received,None,wait
+135690,Stimulus,presented,0
+138627,Stimulus,played,b'click.wav'
+140627,Keyboard,received,None,wait
+140645,Stimulus,presented,0
+142705,Stimulus,played,b'click.wav'
+144705,Keyboard,received,None,wait
+144724,Stimulus,presented,0
+146985,Stimulus,played,b'click.wav'
+148985,Keyboard,received,None,wait
+149004,Stimulus,presented,0
+151199,Stimulus,played,b'click.wav'
+153199,Keyboard,received,None,wait
+153219,Stimulus,presented,0
+155230,Stimulus,presented,2
+157078,Experiment,paused
+157081,Stimulus,presented,6
+231510,stderr,received,'Traceback (most recent call last):'
+231510,stderr,received,'  File "/Users/mathias/Desktop/ENS/PCBS/Class3/simple-detection-audiovisual.py", line 61, in <module>'
+231510,stderr,received,'    key, rt = exp.keyboard.wait(duration=MAX_RESPONSE_TIME)'
+231510,stderr,received,'  File "/Users/mathias/opt/anaconda3/lib/python3.9/site-packages/expyriment/io/_keyboard.py", line 299, in wait'
+231512,stderr,received,'    Keyboard.process_control_keys(event):'
+231512,stderr,received,'  File "/Users/mathias/opt/anaconda3/lib/python3.9/site-packages/expyriment/io/_keyboard.py", line 70, in process_control_keys'
+231512,stderr,received,'    confirm = end_function('
+231512,stderr,received,'  File "/Users/mathias/opt/anaconda3/lib/python3.9/site-packages/expyriment/control/_experiment_control.py", line 321, in end'
+231513,stderr,received,'    char = Keyboard().wait_char(["y", "n"], process_control_events=False)'
+231513,stderr,received,'  File "/Users/mathias/opt/anaconda3/lib/python3.9/site-packages/expyriment/io/_keyboard.py", line 387, in wait_char'
+231513,stderr,received,'    for event in pygame.event.get([pygame.KEYUP, pygame.KEYDOWN]):'
+231513,stderr,received,'KeyboardInterrupt'
+231514,Data,saved
