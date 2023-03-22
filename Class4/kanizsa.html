@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+
+<head>
+    <title> Kanizsa illusion </title>
+</head>
+
+<body>
+    <svg
+			style= " width: 600px ; height: 600px;
+			 position: absolute; top: 50vh;
+			left: 50vw;  background-color: gray;
+             transform: translate(-50%,-50%);
+             position: absolute" id="kanizsa" >
+
+            <circle  cx="200" cy="200" r="40" fill="white"/>
+            <circle  cx="400" cy="200" r="40" fill="white"/>
+            <circle  cx="400" cy="400" r="40" fill="black"/>
+            <circle  cx="200" cy="400" r="40" fill="black"/>
+
+            <polygon points="200,200,200,400,400,400,400,200"
+                            fill="gray"/>
+
+
+
+    </svg>
+</body>
+    
